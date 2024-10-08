@@ -11,7 +11,7 @@
 
 ## Welcome
 
-This blog is a brand new project that I've been considering for some time. Whilst it concentrates on the development of internal software tools and workflows for Engineers, it also touches on the broader topics of Engineers' wellness, productivity and performance. Right now, this is a personal project, let's see what it grows into!
+This blog is a brand new project that I've been considering for some time. Whilst it concentrates on the development of internal software tools and workflows for Engineers, it also touches on the broader topics of Engineers' wellness, productivity and performance. Right now this is a personal project: let's see how it evolves!
 
 ## Contributing
 
