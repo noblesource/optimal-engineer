@@ -26,6 +26,18 @@
     "markdown": false
   },
 
+  "liveServer.settings.root": "/public",
+  "liveServer.settings.file": "index.html",
+  "liveServer.settings.host": "localhost",
+  "liveServer.settings.port": 3000,
+  "liveServer.settings.fullReload": false,
+  "liveServer.settings.https": {
+    "enable": true,
+    "cert": "/workspaces/optimal-engineer/.vscode/cert.pem",
+    "key": "/workspaces/optimal-engineer/.vscode/key.pem",
+    "passphrase": "optimal-engineer"
+  },
+
   "powershell.powerShellDefaultVersion": "PowerShell",
   "powershell.integratedConsole.showOnStartup": false,
   "powershell.suppressAdditionalExeNotFoundWarning": false,

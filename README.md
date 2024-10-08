@@ -9,9 +9,9 @@
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-00add8)](https://choosealicense.com/licenses/agpl-3.0/)
 </div>
 
-## Project Goals
+## Welcome
 
-...
+This blog is a brand new project that I've been considering for some time. Whilst it concentrates on the development of internal software tools and workflows for Engineers, it also touches on the broader topics of Engineers' wellness, productivity and performance. Right now this is a personal project: let's see how it evolves!
 
 ## Contributing
 

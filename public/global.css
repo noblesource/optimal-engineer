@@ -1,0 +1,68 @@
+:root {
+  font-size: 12px; 
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+a { 
+  text-decoration: underline;
+}
+
+  a:hover,
+  button:hover {
+    opacity: 0.75;
+    cursor: pointer;
+  }
+
+  a:active,
+  button:active { 
+    opacity: 0.65;
+  }
+
+  a:focus,
+  button:focus,
+  input:focus { 
+    outline: 0.2rem solid orange;
+  }
+
+  a:disabled,
+  button:disabled { 
+    cursor: not-allowed;
+  }
+
+button { 
+  padding: 1rem; 
+  text-transform: uppercase;
+}
+
+  button:disabled:hover { 
+    opacity: 1; /* Disable opacity change on hover when disabled. */
+  }
+
+body { 
+  min-width: 100dvw; /* Always fill viewport width. */
+  min-height: 100dvh; /* Always fill viewport height. */
+  touch-action: pan-x pan-y;
+}
+
+@media screen and (prefers-color-scheme: light) {
+
+}
+
+@media screen and (prefers-color-scheme: dark) {
+
+}
