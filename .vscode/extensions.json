@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "bierner.markdown-preview-github-styles",
+    "bierner.markdown-mermaid",
+    "github.copilot",
+    "github.vscode-github-actions",
+    "grapecity.gc-excelviewer",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.powershell",
+    "redhat.vscode-xml",
+    "tamasfe.even-better-toml"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+	"name": "Optimal Engineer",
+	"runArgs": ["--name", "optimal-engineer"],
+	"build": { "dockerfile": "Dockerfile" },
+	"privileged": true,
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/powershell:1": {
+      "version": "7.4.3"
+    }
+  },
+	"customizations": {
+		"codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    },
+    "vscode": {
+			"extensions": [
+				"bierner.markdown-preview-github-styles",
+        "bierner.markdown-mermaid",
+				"github.copilot",
+				"github.vscode-github-actions",
+				"grapecity.gc-excelviewer",
+				"ms-azuretools.vscode-docker",
+        "ms-vscode.powershell",
+        "redhat.vscode-xml",
+				"tamasfe.even-better-toml"
+			]
+		}
+	}
+}
