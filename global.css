@@ -99,8 +99,8 @@ body > article > h1 {
   font-family: "DM Serif Text";
   color: #0d0d0d;
   font-weight: 300;
-  background-color: #81eef8;
-  padding-inline: 0.75rem;
+  border-bottom: 0.1rem solid #3d3d3d;
+  padding-bottom: 0.4rem;
 }
 
 body > article > p { 
