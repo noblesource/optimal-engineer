@@ -97,7 +97,6 @@ body > article > h1, body > article > p {
 body > article > h1 { 
   font-size: 2rem;
   font-family: "DM Serif Text";
-  color: #0d0d0d;
   font-weight: 300;
   border-bottom: 0.1rem solid #3d3d3d;
   padding-bottom: 0.4rem;
@@ -120,5 +119,12 @@ body > article > p:first-of-type {
 }
 
 @media screen and (prefers-color-scheme: dark) {
+  body { 
+    background-color: #222222;
+    color: #f1f1f1;
+  }
 
+  body > article > h1 { 
+    border-bottom: 0.1rem solid #f0f0f0;
+  }
 }
