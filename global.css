@@ -22,44 +22,38 @@ a {
   text-decoration: underline;
 }
 
-  a:hover,
-  button:hover {
-    opacity: 0.75;
-    cursor: pointer;
-  }
+a:hover, button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
 
-  a:active,
-  button:active { 
-    opacity: 0.65;
-  }
+a:active, button:active { 
+  opacity: 0.65;
+}
 
-  a:focus,
-  button:focus,
-  input:focus { 
-    outline: 0.2rem solid orange;
-  }
+a:focus, button:focus, input:focus { 
+  outline: 0.2rem solid orange;
+}
 
-  a:disabled,
-  button:disabled { 
-    cursor: not-allowed;
-  }
+a:disabled, button:disabled { 
+  cursor: not-allowed;
+}
 
 button { 
   padding: 1rem; 
   text-transform: uppercase;
 }
 
-  button:disabled:hover { 
-    opacity: 1; /* Disable opacity change on hover when disabled. */
-  }
+button:disabled:hover { 
+  opacity: 1; /* Disable opacity change on hover when disabled. */
+}
 
 body { 
+  background-color: #f0f0f0;
   min-width: 100dvw; /* Always fill viewport width. */
   min-height: 100dvh; /* Always fill viewport height. */
   touch-action: pan-x pan-y;
-  padding-block: 4rem;
-  padding-inline: 30rem;
-  background-color: #f0f0f0;
+  padding: 4rem;
 }
 
 h1 { 
@@ -72,8 +66,7 @@ body > header {
   padding-block-end: 2.5rem;
 }
 
-body > header > h1,
-body > header > h2 { 
+body > header > h1, body > header > h2 { 
   text-align: center;
 }
 
@@ -95,8 +88,7 @@ body > article {
   padding-bottom: 2rem;
 }
 
-body > article > h1, 
-body > article > p { 
+body > article > h1, body > article > p { 
   margin-inline: auto;
   max-width: 60rem;
   width: auto;
@@ -105,11 +97,10 @@ body > article > p {
 body > article > h1 { 
   font-size: 2rem;
   font-family: "DM Serif Text";
-  background-color: #44c4cf;
-  color: #ffffff;
+  color: #0d0d0d;
   font-weight: 300;
+  background-color: #81eef8;
   padding-inline: 0.75rem;
-  padding-block: 0.25rem;
 }
 
 body > article > p { 
@@ -118,6 +109,10 @@ body > article > p {
   line-height: 2.5rem;
   text-align: justify;
   margin-block: 2rem;
+}
+
+body > article > p:first-of-type { 
+  margin-block-start: 1.5rem;
 }
 
 @media screen and (prefers-color-scheme: light) {
