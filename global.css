@@ -15,7 +15,7 @@
   border-radius: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
 }
 
 a { 
@@ -57,6 +57,67 @@ body {
   min-width: 100dvw; /* Always fill viewport width. */
   min-height: 100dvh; /* Always fill viewport height. */
   touch-action: pan-x pan-y;
+  padding-block: 4rem;
+  padding-inline: 30rem;
+  background-color: #f0f0f0;
+}
+
+h1 { 
+  font-family: "DM Serif Text";
+  font-style: normal;
+}
+
+body > header {
+  padding-block-start: 1rem;
+  padding-block-end: 2.5rem;
+}
+
+body > header > h1,
+body > header > h2 { 
+  text-align: center;
+}
+
+body > header > h1 { 
+  font-size: 3rem;
+}
+
+body > header > h2 { 
+  font-weight: 300;
+  font-size: 1.4rem;
+  margin-block: 1rem;
+  padding-bottom: 0.2rem;
+}
+
+body > article { 
+  margin-block: 2.5rem;
+  width: 100%;
+  border-bottom: 0.1rem solid #d0d0d0;
+  padding-bottom: 2rem;
+}
+
+body > article > h1, 
+body > article > p { 
+  margin-inline: auto;
+  max-width: 60rem;
+  width: auto;
+}
+
+body > article > h1 { 
+  font-size: 2rem;
+  font-family: "DM Serif Text";
+  background-color: #44c4cf;
+  color: #ffffff;
+  font-weight: 300;
+  padding-inline: 0.75rem;
+  padding-block: 0.25rem;
+}
+
+body > article > p { 
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+  text-align: justify;
+  margin-block: 2rem;
 }
 
 @media screen and (prefers-color-scheme: light) {
