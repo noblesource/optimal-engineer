@@ -22,20 +22,25 @@ a {
   text-decoration: underline;
 }
 
-a:hover, button:hover {
+a:hover, 
+button:hover {
   opacity: 0.75;
   cursor: pointer;
 }
 
-a:active, button:active { 
+a:active, 
+button:active { 
   opacity: 0.65;
 }
 
-a:focus, button:focus, input:focus { 
+a:focus, 
+button:focus, 
+input:focus { 
   outline: 0.2rem solid orange;
 }
 
-a:disabled, button:disabled { 
+a:disabled, 
+button:disabled { 
   cursor: not-allowed;
 }
 
@@ -66,7 +71,8 @@ body > header {
   padding-block-end: 2.5rem;
 }
 
-body > header > h1, body > header > h2 { 
+body > header > h1, 
+body > header > h2 { 
   text-align: center;
 }
 
@@ -82,13 +88,12 @@ body > header > h2 {
 }
 
 body > article { 
-  margin-block: 2.5rem;
+  margin-block-start: 2.5rem;
   width: 100%;
-  border-bottom: 0.1rem solid #d0d0d0;
-  padding-bottom: 2rem;
 }
 
-body > article > h1, body > article > p { 
+body > article > h1, 
+body > article > p { 
   margin-inline: auto;
   max-width: 60rem;
   width: auto;
