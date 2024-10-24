@@ -15,48 +15,108 @@
   border-radius: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
 }
 
 a { 
   text-decoration: underline;
 }
 
-  a:hover,
-  button:hover {
-    opacity: 0.75;
-    cursor: pointer;
-  }
+a:hover, 
+button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
 
-  a:active,
-  button:active { 
-    opacity: 0.65;
-  }
+a:active, 
+button:active { 
+  opacity: 0.65;
+}
 
-  a:focus,
-  button:focus,
-  input:focus { 
-    outline: 0.2rem solid orange;
-  }
+a:focus, 
+button:focus, 
+input:focus { 
+  outline: 0.2rem solid orange;
+}
 
-  a:disabled,
-  button:disabled { 
-    cursor: not-allowed;
-  }
+a:disabled, 
+button:disabled { 
+  cursor: not-allowed;
+}
 
 button { 
   padding: 1rem; 
   text-transform: uppercase;
 }
 
-  button:disabled:hover { 
-    opacity: 1; /* Disable opacity change on hover when disabled. */
-  }
+button:disabled:hover { 
+  opacity: 1; /* Disable opacity change on hover when disabled. */
+}
 
 body { 
+  background-color: #f0f0f0;
   min-width: 100dvw; /* Always fill viewport width. */
   min-height: 100dvh; /* Always fill viewport height. */
   touch-action: pan-x pan-y;
+  padding: 4rem;
+}
+
+h1 { 
+  font-family: "DM Serif Text";
+  font-style: normal;
+}
+
+body > header {
+  padding-block-start: 1rem;
+  padding-block-end: 2.5rem;
+}
+
+body > header > h1, 
+body > header > h2 { 
+  text-align: center;
+}
+
+body > header > h1 { 
+  font-size: 3rem;
+}
+
+body > header > h2 { 
+  font-weight: 300;
+  font-size: 1.4rem;
+  margin-block: 1rem;
+  padding-bottom: 0.2rem;
+}
+
+body > article { 
+  margin-block-start: 2.5rem;
+  width: 100%;
+}
+
+body > article > h1, 
+body > article > p { 
+  margin-inline: auto;
+  max-width: 60rem;
+  width: auto;
+}
+
+body > article > h1 { 
+  font-size: 2rem;
+  font-family: "DM Serif Text";
+  font-weight: 300;
+  border-bottom: 0.1rem solid #3d3d3d;
+  padding-bottom: 0.4rem;
+}
+
+body > article > p { 
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+  text-align: justify;
+  margin-block: 2rem;
+}
+
+body > article > p:first-of-type { 
+  margin-block-start: 1.5rem;
 }
 
 @media screen and (prefers-color-scheme: light) {
@@ -64,5 +124,12 @@ body {
 }
 
 @media screen and (prefers-color-scheme: dark) {
+  body { 
+    background-color: #303030;
+    color: #f1f1f1;
+  }
 
+  body > article > h1 { 
+    border-bottom: 0.1rem solid #f0f0f0;
+  }
 }
